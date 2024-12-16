@@ -1,0 +1,4 @@
+O que é Tailwind?
+
+Tailwind é um código especializado em CSS, com o objetivo de modernizar e simplificar o processo de estilização.
+
