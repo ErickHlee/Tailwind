@@ -36,7 +36,7 @@ module.exports = {
 ```
 npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 ```
-
+</br>
 5) Por fim, no seu arquivo HTML, faça o link:css usando o arquivo <b>output.css</b> em vez do css que usamos.
 </br>
 ---
