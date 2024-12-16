@@ -1,6 +1,7 @@
 # Tailwind </br>
 
 **Como instalar?**
+</br>
 ```src: https://tailwindcss.com/docs/installation```
 
 1) No seu vscode, use o diretório que você desejar. Dentro dele, insira este código:
