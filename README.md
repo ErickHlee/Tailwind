@@ -13,8 +13,11 @@ Aperte o "Enter" até que o procedimento termine. Com isso, você precisa instal
 npm install -D tailwindcss
 npx tailwindcss init
 ```
+
 </br>
+
 2) Com o primeiro processo feito com sucesso, precisamos configurar o <b>tailwind.config.js</b> para que fique assim (copiar e colar):
+
 ```js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -26,18 +29,23 @@ module.exports = {
 }
 ```
 </br>
+
 3) Crie uma nova pasta chamada <b>src</b>. Dentro desta pasta, crie um aquivo chamado <b>input.css</b> e copie e cole este código:
+
 ```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 ```
 </br>
+
 4) No terminal, copie e cole este código e execute:
+
 ```
 npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 ```
 </br>
+
 5) Por fim, no seu arquivo HTML, faça o link:css usando o arquivo <b>output.css</b> em vez do css que usamos.
 </br>
 ---
