@@ -14,7 +14,7 @@ npx tailwindcss init
 ```
 </br>
 2) Com o primeiro processo feito com sucesso, precisamos configurar o <b>tailwind.config.js</b> para que fique assim (copiar e colar):
-``` 
+```js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js}"],
@@ -26,7 +26,7 @@ module.exports = {
 ```
 </br>
 3) Crie uma nova pasta chamada <b>src</b>. Dentro desta pasta, crie um aquivo chamado <b>input.css</b> e copie e cole este código:
-```
+```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
